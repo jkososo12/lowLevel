@@ -39,10 +39,7 @@ int main(){
         printf("Alokasi memori gagal\n");
         return 1;
       }
-      printf("Nilai awal dari setiap data : \n");
-      for(int i = 0; i < n; i++){
-        printf("Data indeks ke-%d : %d\n", i, arr[i]);
-      }
+      printf("Jumlah data yang dialokasikan adalah : %d\n", n);
       break;
     case 3:
       printf("Anda memilih realloc\n");
